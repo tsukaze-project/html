@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+Theme Name: Simple WordPress Theme Template
+Theme URL: https://tsukaze-project.org/
+Description: WordPressのテンプレートテーマ
+Version:1.0.0
+Author: 小ハル桜 | 月風Project
+*/
+
+* {
+	margin:0 0;
+	padding:0 0;
+}
+
+
+body {
+	width:auto;
+	background:#fff;
+	color:#ooo;
+}
+
+
+#header-area {
+    /*
+	margin:0 auto;
+    width: 100%;
+    height: 390px;
+    */
+}
+
+#header {
+	margin:0 auto;
+}
+
+
+
+
+#nav { 
+    margin:0 auto;   
+    width:100%;  
+   	height:80px;  
+   	overflow:hidden;  
+   	background:#000;
+}
+
+
+#nav ul {
+	margin:0 auto;  
+  	padding:0;  
+    width:980px;  
+   	height:80px;  
+   	overflow:hidden;  
+   	background:#000;
+}
+
+
+
+#nav li {
+	list-style:none;
+	width:90px;
+	width:130px;
+	float:left; 
+	margin:0 auto;
+}
+
+#nav a {
+	display:block;  
+    line-height:80px;  
+    color:#fff;  
+    text-align:center;
+	text-decoration:none;
+}
+
+#nav li a:hover {
+	background:#999;
+	color:#000;
+}
+
+
+#wrap {
+    margin: 0 auto;
+    width: 980px;
+    text-align: center;
+}
+
+
+
+
+footer {
+	clear:both;
+	background:#000;
+	text-align:center;
+	padding: 140 0;
+	width:100%;
+	padding:10% 0;
+    bottom:0;
+    color: #fff;
+}
